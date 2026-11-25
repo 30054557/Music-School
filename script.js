@@ -31,7 +31,7 @@ const classesGrid = document.querySelector(".classes-grid");
 if (classesGrid) {
 
     // Load the class information from my JSON file
-    fetch("../JSON/classes.json")
+    fetch("classes.json")
         .then(function(response) {
             return response.json();
         })
